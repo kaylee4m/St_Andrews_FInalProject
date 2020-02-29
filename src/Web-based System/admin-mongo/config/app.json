@@ -1,0 +1,8 @@
+{
+    "app": {
+        "host": "localhost",
+        "docs_per_page": 15,
+        "password": "admin",
+        "monitoring": false
+    }
+}

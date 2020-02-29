@@ -1,0 +1,54 @@
+//Shadow
+$__shadow: 0 2px 8px rgba(0, 0, 0, .15); 
+
+//Color
+$__theme: #4391f7;
+$__link: #1890ff;
+$__warn: #E6A23C;
+$__success: #67C23A;
+$__error: #F56C6C;
+
+//Font color
+$__text: #333;
+$__subtitle: #666;
+$__placeholder: #999;
+
+// z-index layer
+$__z_below: -1;
+$__z_default: 1;
+$__z_modal: 2024;
+$__z_popover: 2030;
+$__z_notice: 2036;
+$__z_max: 2147483647;
+
+//header height
+$__header_H: 60px;
+
+
+/*fade*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*fade-transform*/
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+
+
